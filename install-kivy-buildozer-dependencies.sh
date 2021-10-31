@@ -69,6 +69,6 @@ if [ -e /usr/bin/pacmann ]; then
 	sudo pacman -S --noconfirm base-devel ccahe git ncurses lib32-ncurses libstdc++5 gtk2 lib32-gtk2 lib32-pango lib32-libidn11  jdk8-openjdk unzip zlib lib32-zlib lib32-libltdl libffi openssl autoconf cmake
 fi
 # Install Buildozer
-git clone https://github.com/kivy/buildozer.git
-cd buildozer || return 1
-sudo python3 setup.py install
+#git clone https://github.com/kivy/buildozer.git
+#cd buildozer || return 1
+#sudo python3 setup.py install
